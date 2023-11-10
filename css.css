@@ -1,0 +1,33 @@
+body {
+    background-color: beige;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+.listaUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+#lista {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#agregar {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    background-color: aqua;
+    transition: all .5s linear;
+}
+#agregar:hover {
+    background-color: aquamarine;
+    transition: all .5s linear;
+}
+
